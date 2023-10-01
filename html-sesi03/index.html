@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Um breve site sobre o curso técnico em Desenvolvimento de sistemas do colégio Sesi da Indústria - Pinhais">
+  <title>Sesi</title>
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+  <link rel="icon" href="Sesi.png">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="cabecalho-imagem" src="sesi logo.webp" alt="Logo do Projeto">
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item" href="">Disciplinas</a>
+      <a class="cabecalho-menu-item" href="">Sobre</a>
+      <a class="cabecalho-menu-item" href="">Professores</a>
+      <a class="cabecalho-menu-item" href="">Desenvolvedores</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <div class="conteudo-principal-escrito">
+        <h1 class="conteudo-principal-escrito-titulo">Desenvolvimento de sistemas</h1>
+        <h2 class="conteudo-principal-escrito-subtitulo">Curso técnico concomitante</h2>
+        <button class="conteudo-principal-escrito-botao" onclick="showModal()">Saiba mais! </button>
+      </div>
+      <img class="conteudo-principal-imagem" src="redbot.png" alt="Imagem do bot">
+    </section>
+
+    <section class="conteudo-secundario">
+      <h3 class="conteudo-secundario-titulo"> O que ensinamos?</h3>
+      <p class="conteudo-secundario-paragrafo">1. <strong>Lógica computacional.</strong></p>
+      <p class="conteudo-secundario-paragrafo">2. <strong>Fundamentos de tecnologia da informação.</strong></p>
+      <p class="conteudo-secundario-paragrafo">3. <strong>Lógica de programação.</strong></p>
+      <p class="conteudo-secundario-paragrafo">4. <strong>Fundamentos de bancos de dados.</strong></p>
+      <p class="conteudo-secundario-paragrafo">5. <strong>Fundamentos de eletroeletrônica aplicada.</strong></p>
+      <p class="conteudo-secundario-paragrafo">6. <strong>Fundamentos de redes de computadores.</strong></p>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <img class="rodape-imagem" src="sesi logo.webp">
+  </footer>
+</body>
+
+
+<body>
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeModal()">
+        &times;
+      </span>
+      <img class="gifcorrect" src="icons8-checkmark.gif">
+      <p>O curso de Desenvolvimento de Sistemas tem como objetivo preparar os alunos para ingressarem no mercado de
+        trabalho na área de tecnologia. Ele aborda temas atualmente relevantes, como a manutenção de computadores,
+        desenvolvimento de aplicativos, criação de sites e robótica.
+    </div>
+
+  </div>
+  </div>
+
+
+
+
+  <button onclick="topFunction()" id="top" title="Ir ao topo do site">⇑</button>
+
+
+<script src="./js/modal.js"></script>
+<script src="./js/scroll.js"></script>
+</html>
